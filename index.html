@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Brilho Eterno - Loja de Joias</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        .banner {
+            background-image: url("https://images.unsplash.com/photo-1605100804763-247f67b3557e");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .produto {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .produto img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .produto h3 {
+            margin: 15px 0 5px;
+        }
+
+        .produto p {
+            color: #777;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Brilho Eterno</h1>
+        <p>Joias que contam histórias</p>
+    </header>
+
+    <div class="banner"></div>
+
+    <div class="container">
+        <h2>Nossas Joias</h2>
+
+        <div class="produtos">
+            <div class="produto">
+                <img src="https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d" alt="Anel de Ouro">
+                <h3>Anel de Ouro</h3>
+                <p>R$ 1.299,00</p>
+            </div>
+
+            <div class="produto">
+                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f" alt="Colar de Diamante">
+                <h3>Colar de Diamante</h3>
+                <p>R$ 2.499,00</p>
+            </div>
+
+            <div class="produto">
+                <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Brinco de Prata">
+                <h3>Brinco de Prata</h3>
+                <p>R$ 399,00</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 - Brilho Eterno | Todos os direitos reservados
+    </footer>
+
+</body>
+</html>
 
